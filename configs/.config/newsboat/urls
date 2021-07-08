@@ -1,0 +1,95 @@
+"query:Unread Articles:unread = \"yes\""
+"query:Shorts:title =~ \"#shorts\""
+"query:Tech Videos:tags # \"tech\""
+"query:Edu Videos:tags # \"edu\""
+"query:Food Videos:tags # \"food\""
+"query:Code Videos:tags # \"code\""
+"query:Lifestyle Videos:tags # \"lifestyle\""
+"query:Comedy Videos:tags # \"comedy\""
+# tech
+http://www.youtube.com/feeds/videos.xml?channel_id=UCfp-lNJy4QkIGnaEE6NtDSg "tech" 
+http://www.youtube.com/feeds/videos.xml?channel_id=UCVls1GmFKf6WlTraIb_IaJg "tech"
+http://www.youtube.com/feeds/videos.xml?channel_id=UC2eYFnH61tmytImy1mTYvhA "tech"
+http://www.youtube.com/feeds/videos.xml?channel_id=UC7YOGHUfC1Tb6E4pudI9STA "tech"
+http://www.youtube.com/feeds/videos.xml?channel_id=UCsnGwSIHyoYN0kiINAGUKxg "tech"
+http://www.youtube.com/feeds/videos.xml?channel_id=UCS97tchJDq17Qms3cux8wcA "tech"
+http://www.youtube.com/feeds/videos.xml?channel_id=UCg6gPGh8HU2U01vaFCAsvmQ "tech"
+http://www.youtube.com/feeds/videos.xml?channel_id=UCXuqSBlHAE6Xw-yeJA0Tunw "tech"
+http://www.youtube.com/feeds/videos.xml?channel_id=UCjr2bPAyPV7t35MvcgT3W8Q "tech"
+http://www.youtube.com/feeds/videos.xml?channel_id=UCs6KfncB4OV6Vug4o_bzijg "tech"
+http://www.youtube.com/feeds/videos.xml?channel_id=UCld68syR8Wi-GY_n4CaoJGA "tech"
+http://www.youtube.com/feeds/videos.xml?channel_id=UC4w1YQAJMWOz4qtxinq55LQ "tech"
+http://www.youtube.com/feeds/videos.xml?channel_id=UCOWcZ6Wicl-1N34H0zZe38w "tech"
+https://videos.lukesmith.xyz/feeds/videos.xml?accountId=3 "~Luke Smith's Peertube" "tech"
+https://www.youtube.com/feeds/videos.xml?channel_id=UC8ENHE5xdFSwx71u3fDH5Xw "tech" "linux" #primeaegen
+https://www.youtube.com/feeds/videos.xml?channel_id=UCfzlCWGWYyIQ0aLC5w48gBQ "tech" #sentdex
+https://www.youtube.com/feeds/videos.xml?channel_id=UCylGUf9BvQooEFjgdNudoQg "tech" #linuxcast
+https://www.youtube.com/feeds/videos.xml?channel_id=UCkf4VIqu3Acnfzuk3kRIFwA "tech" #gotbletu
+https://www.youtube.com/feeds/videos.xml?channel_id=UC0A3ldncnGQ1M_RU2Wb4L2A "tech" #quidsup
+https://www.youtube.com/feeds/videos.xml?channel_id=UCv1Kcz-CuGM6mxzL3B1_Eiw "tech" #gardiner
+https://www.youtube.com/feeds/videos.xml?channel_id=UCJYVW4HVrMWpUvvsjPQc8-Q "tech" #doriandotslash
+https://www.youtube.com/feeds/videos.xml?channel_id=UCAiiOTio8Yu69c3XnR7nQBQ "tech" #systemcrafters
+https://www.youtube.com/feeds/videos.xml?channel_id=UCFFLP0dKesrKWccYscdAr9A "tech" #urbanpenguin
+https://www.youtube.com/feeds/videos.xml?channel_id=UC0S1R9kY6AEc9GK9DA5KYyw "tech" #sleepyeyesvince
+https://www.youtube.com/feeds/videos.xml?channel_id=UCMz9lmndR0BEqi70kM_ioyA "tech" #benkadel
+https://www.youtube.com/feeds/videos.xml?channel_id=UCbZ8wD6pmGb9qHqvx9M4YBw "tech" #frugal
+https://www.youtube.com/feeds/videos.xml?channel_id=UCTd7Cqj-oAEONRcG53Pg0ew "tech" #nicholas
+https://www.youtube.com/feeds/videos.xml?channel_id=UC2NXVB__-v-hf-l6wcg1zjQ "tech" #tom
+https://www.youtube.com/feeds/videos.xml?channel_id=UCS0N5baNlQWJCUrhCEo8WlA "tech" #beneater
+# edu
+http://www.youtube.com/feeds/videos.xml?channel_id=UC8XjmAEDVZSCQjI150cb4QA "edu"
+http://www.youtube.com/feeds/videos.xml?channel_id=UCyhOl6uRlxryALlT5yifldw "edu"
+http://www.youtube.com/feeds/videos.xml?channel_id=UCHnyfMqiRRG1u-2MsSQLbXA "edu"
+http://www.youtube.com/feeds/videos.xml?channel_id=UC6nSFpj9HTCZ5t-N3Rm3-HA "edu"
+http://www.youtube.com/feeds/videos.xml?channel_id=UCwmFOfFuvRPI112vR5DNnrA "edu"
+http://www.youtube.com/feeds/videos.xml?channel_id=UCmGSJVG3mCRXVOP4yZrU1Dw "edu"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCBa659QWEk1AI4Tg--mrJ2A "edu"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCqVEHtQoXHmUCfJ-9smpTSg "edu"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCoOae5nYA7VqaXzerajD0lg "edu"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCJ24N4O0bP7LGLBDvye7oCA "edu"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCG-KntY7aVnIGXYEBQvmBAQ "edu"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCMb0O2CdPBNi-QqPk5T3gsQ "edu"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCY1kMZp36IQSyNx_9h4mpCg "edu"
+https://www.youtube.com/feeds/videos.xml?channel_id=UC9RM-iSvTu1uPJb8X5yp3EQ "edu"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCYO_jab_esuFRV4b17AJtAw "edu"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCsXVk37bltHxD1rDPwtNM8Q "edu"
+https://www.youtube.com/feeds/videos.xml?channel_id=UC0aanx5rpr7D1M7KCFYzrLQ "edu"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCuCkxoKLYO_EQ2GeFtbM_bw "edu"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCf0O2efB4K66UUaT7QJPVNA "edu"
+https://www.youtube.com/feeds/videos.xml?channel_id=UC9dRb4fbJQIbQ3KHJZF_z0g "edu"
+# finance
+https://www.youtube.com/feeds/videos.xml?channel_id=UCwAdQUuPT6laN-AQR17fe1g "finance" #pranjal kamra
+https://www.youtube.com/feeds/videos.xml?channel_id=UCe3qdG0A_gr-sEdat5y2twQ "finance" #ca
+# food
+http://www.youtube.com/feeds/videos.xml?channel_id=UC9_p50tH3WmMslWRWKnM7dQ "food"
+http://www.youtube.com/feeds/videos.xml?channel_id=UCDq5v10l4wkV5-ZBIJJFbzQ "food"
+https://www.youtube.com/feeds/videos.xml?channel_id=UChBEbMKI1eCcejTtmI32UEw "food"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCJHA_jMfCvEnv-3kRjTCQXw "food"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCRIZtPl9nb9RiXc9btSTQNw "food"
+# code
+http://www.youtube.com/feeds/videos.xml?channel_id=UC-8QAzbLcRglXeN_MY9blyw "code"
+http://www.youtube.com/feeds/videos.xml?channel_id=UC1fLEeYICmo3O9cUsqIi7HA "code"
+http://www.youtube.com/feeds/videos.xml?channel_id=UCSSBvqWNPq_qO3_W4EJiOAA "code"
+http://www.youtube.com/feeds/videos.xml?channel_id=UCCLTbu1USKT91jZ6Td5XCKQ "code"
+# lifestyle
+https://www.youtube.com/feeds/videos.xml?channel_id=UCtinbF-Q-fVthA0qrFQTgXQ "lifestyle"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCfMJ2MchTSW2kWaT0kK94Yw "lifestyle"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCtHaxi4GTYDpJgMSGy7AeSw "lifestyle"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCDWIvJwLJsE4LG1Atne2blQ "lifestyle"
+https://www.youtube.com/feeds/videos.xml?channel_id=UC4USoIAL9qcsx5nCZV_QRnA "lifestyle"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCo8bcnLyZH8tBIH9V1mLgqQ "lifestyle"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCn1XB-jvmd9fXMzhiA6IR0w "lifestyle"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCGwu0nbY2wSkW8N-cghnLpA "lifestyle"
+https://www.youtube.com/feeds/videos.xml?channel_id=UC-lHJZR3Gqxm24_Vd_AJ5Yw "lifestyle"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCofLyWKImmSHboaerI4AwfA "lifestyle"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCR0VLWitB2xM4q7tjkoJUPw "lifestyle"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCfp86n--4JvqKbunwSI2lYQ "lifestyle"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCTSRIY3GLFYIpkR2QwyeklA "lifestyle"
+# comedy
+https://www.youtube.com/feeds/videos.xml?channel_id=UC7sbc0Ed3_yMu-etXVpj7cg "comedy"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCDE7MoDdJwleaIAd3qFJF1A "comedy"
+https://www.youtube.com/feeds/videos.xml?channel_id=UC4lJ39xy4cCdmHZpe8cjpJw "comedy"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCr3cBLTYmIK9kY0F_OdFWFQ "comedy"
+https://www.youtube.com/feeds/videos.xml?channel_id=UC1DTYW241WD64ah5BFWn4JA "comedy"
+# fitness
+https://www.youtube.com/feeds/videos.xml?channel_id=UC1XHNZDn3btv7454Pkz7THg "fitness" #scooby

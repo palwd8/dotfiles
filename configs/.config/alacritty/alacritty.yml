@@ -1,0 +1,93 @@
+window:
+  padding:
+    x: 0
+    y: 0
+  decorations: none
+  dynamic_padding: true
+
+key_bindings:
+  - { key: Return,   mods: Super|Shift, action: SpawnNewInstance }
+
+# Font configuration
+font:
+  normal:
+    family: Fira Code
+    style: Regular
+
+  size: 7.0    
+
+  #colors:
+  #  primary:
+  #    background: '#0a0e14'
+  #    foreground: '#fafafa'
+  #
+  #  normal:
+  #    black:   '#01060e'
+  #    red:     '#d96c75'
+  #    green:   '#c2d94c'
+  #    yellow:  '#e6b450'
+  #    blue:    '#39bae6'
+  #    magenta: '#F72585'
+  #    cyan:    '#20B2AA'
+  #    white:   '#fafafa'
+  #
+  #  bright:
+  #    black:   '#686868'
+  #    red:     '#f07178'
+  #    green:   '#c2d94c'
+  #    yellow:  '#ffb454'
+  #    blue:    '#59c2ff'
+  #    magenta: '#F73A91'
+  #    cyan:    '#00ced1'
+  #    white:   '#ffffff'
+  #colors:
+  #  primary:
+  #    background: '#0a0e14'
+  #    foreground: '#fafafa'
+  #
+  #  normal:
+  #    black:   '#01060e'
+  #    red:     '#ea6c73'
+  #    green:   '#91b362'
+  #    yellow:  '#f9af4f'
+  #    blue:    '#53b9fa'
+  #    magenta: '#fae994'
+  #    cyan:    '#90e1c6'
+  #    white:   '#fafafa'
+  #
+  #  bright:
+  #    black:   '#686868'
+  #    red:     '#cc6666'
+  #    green:   '#c2d94c'
+  #    yellow:  '#ffb454'
+  #    blue:    '#59c2ff'
+  #    magenta: '#ffee99'
+  #    cyan:    '#95e6cb'
+  #    white:   '#ffffff'
+# Colors (ayu)
+colors:
+  bright:
+    black: '#686868'
+    blue: '#68d5ff'
+    cyan: '#c7fffd'
+    green: '#eafe84'
+    magenta: '#ffa3aa'
+    red: '#ff6565'
+    white: '#ffffff'
+    yellow: '#fff779'
+  normal:
+    black: '#01060e'
+    blue: '#36a3d9'
+    cyan: '#95e6cb'
+    green: '#b8cc52'
+    magenta: '#f07178'
+    #red: '#ff3333'
+    red: '#e83c3c'
+    white: '#ffffff'
+    yellow: '#e7c547'
+  primary:
+    background: '#0a0e14'
+    foreground: '#fafafa'
+    #  selection:
+    #    background: '#253340'
+    #    text: '#e6e1cf'

@@ -1,0 +1,65 @@
+auto-reload yes
+reload-threads 100
+prepopulate-query-feeds yes
+html-renderer cat
+
+browser "librewolf %u"
+bookmark-cmd "~/.config/newsboat/scripts/bookmarks.sh
+bookmark-autopilot yes
+
+unbind-key ENTER
+unbind-key q
+unbind-key p
+unbind-key PPAGE
+unbind-key NPAGE
+unbind-key HOME
+unbind-key END
+unbind-key Q
+unbind-key ,
+
+bind-key j down
+bind-key k up
+bind-key j next articlelist
+bind-key k prev articlelist
+bind-key J next-feed articlelist
+bind-key K prev-feed articlelist
+bind-key G end
+bind-key g home
+bind-key d pagedown
+bind-key u pageup
+bind-key l open
+bind-key h quit
+bind-key a toggle-article-read
+bind-key n next-unread
+bind-key N prev-unread
+bind-key D pb-download
+bind-key U show-urls
+bind-key x pb-delete
+bind-key q hard-quit
+bind-key SPACE macro-prefix
+
+macro c set browser "echo %u | xclip -r -sel c" ; open-in-browser-noninteractively ; set browser "librewolf %u"
+macro y set browser "mpv %u 2>&1 /dev/null &" ; open-in-browser-and-mark-read ; set browser "librewolf %u"
+macro s set browser "alacritty -e ytfzf -tl &" ; open-in-browser ; set browser "librewolf %u"
+macro C set browser "alacritty -e youtube-viewer --comments=%u &" ; open-in-browser ; set browser "librewolf %u"
+macro r set browser "alacritty -e youtube-viewer --related=%u &" ; open-in-browser ; set browser "librewolf %u"
+
+color listfocus black blue bold
+color info white black bold
+color listnormal_unread white default bold
+color listfocus_unread white blue bold
+
+highlight feedlist "---.*---" default default bold
+highlight feedlist ".*0/0.." default default invis
+highlight article "https?://[^ ]+" yellow default
+highlight article "^(Feed):.*$" red default bold
+highlight article "^(Title):.*$" green default
+highlight article "^(Author):.*$" blue default
+highlight article "^(Date):.*$" red default
+highlight article "^(Link):" yellow default
+highlight article "\\[[0-9][0-9]*\\]" magenta default bold
+highlight article "\\[image\\ [0-9]+\\]" cyan default bold
+highlight article "\\[embedded flash: [0-9][0-9]*\\]" green default bold
+highlight article ":.*\\(link\\)$" cyan default
+highlight article ":.*\\(image\\)$" blue default
+highlight article ":.*\\(embedded flash\\)$" red default

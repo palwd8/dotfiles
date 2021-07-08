@@ -1,0 +1,59 @@
+alias ls='ls -FN --group-directories-first --color=auto'
+alias ll='ls -lh'
+alias la='ls -A'
+alias v=nvim
+alias mv='mv -iv'
+alias cp='cp -riv'
+alias rm='rm -I'
+alias mkdir='mkdir -vp'
+alias d='dirs -v'
+for index ({1..9}) alias "$index"="cd +${index}"; unset index
+
+alias fullclean='git checkout master && make clean && rm -f config.h && git reset --hard origin/master'
+
+mkcd () {
+  case "$1" in
+    */..|*/../) cd -- "$1";; # that doesn't make any sense unless the directory already exists
+    /*/../*) (cd "${1%/../*}/.." && mkdir  "./${1##*/../}") && cd -- "$1";;
+    /*) mkdir  "$1" && cd "$1";;
+    */../*) (cd "./${1%/../*}/.." && mkdir  "./${1##*/../}") && cd "./$1";;
+    ../*) (cd .. && mkdir  "${1#.}") && cd "$1";;
+    *) mkdir  "./$1" && cd "./$1";;
+  esac
+}
+
+function chpwd() {
+    emulate -L zsh
+    ls 
+}
+
+alias yt='ytfzf -tl'
+alias se="find $HOME/.local/bin $HOME/.config -not -path '*/BraveSoftware/*' -not -path \
+        '*/cargo/*'| fzf | xargs -r $EDITOR" 
+alias br="find $HOME/desktop/stuff -name '*.pdf' -or -name '*.epub' | fzf | \
+        xargs -I % sh -c 'zathura % &'"
+
+lfcd () {
+    tmp="$(mktemp)"
+    lfrun -last-dir-path="$tmp" "$@"
+    if [ -f "$tmp" ]; then
+        dir="$(cat "$tmp")"
+        rm -f "$tmp" >/dev/null
+        [ -d "$dir" ] && [ "$dir" != "$(pwd)" ] && cd "$dir"
+    fi
+}
+
+alias lf='lfcd'
+
+ae () {
+    file=$(find -maxdepth 1 -not -name ".*" -amin -10 | fzf)
+    if [ -s $file ]; then
+        echo "sup"
+    fi
+#| fzf | xargs chmod u+x
+}
+
+alias sk='fullclean && git checkout keychain && v config.def.h'
+alias sc='fullclean && git checkout config && v config.def.h'
+alias gc='git commit -a'
+alias sm='git commit -a && git checkout master && suckmerge'

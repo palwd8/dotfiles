@@ -1,0 +1,5 @@
+[user]
+	email = palw@tutamail.com
+	name = pal
+[init]
+	defaultBranch = master

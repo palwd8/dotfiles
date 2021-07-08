@@ -1,0 +1,8 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =6
+let g:netrw_dirhist_6='/home/walid/.local/bin'
+let g:netrw_dirhist_5='/home/walid/.config/zsh'
+let g:netrw_dirhist_4='/home/walid/etc/bookmarks'
+let g:netrw_dirhist_3='/usr/share/doc/newsboat/contrib/colorschemes'
+let g:netrw_dirhist_2='/usr/share/doc/newsboat/contrib/image-preview'
+let g:netrw_dirhist_1='/usr/share/doc/newsboat/contrib'
