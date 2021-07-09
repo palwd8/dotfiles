@@ -11,8 +11,9 @@ export EDITOR=nvim
 export GTK2_RC_FILES="$XDG_CONFIG_HOME"/gtk-2.0/gtkrc
 export LESSKEY="$XDG_CONFIG_HOME"/less/lesskey
 export LESSHISTFILE="$XDG_CACHE_HOME"/less/history
-export STOW_DIR="$HOME/dots"
+export STOW_DIR="$HOME/jotfiles"
 
-eval "$(zoxide init zsh)"
+eval "$(zoxide init --cmd j zsh)"
 export _ZO_DATA_DIR=$XDG_DATA_HOME
+export _ZO_ECHO="1"
 export FZF_DEFAULT_OPTS="--layout=reverse --height 60% --color='pointer:red,prompt:red,hl:-1,bg+:blue,gutter:-1,fg+:black'"

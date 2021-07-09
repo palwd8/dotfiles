@@ -1,9 +1,9 @@
 let mapleader=" "
 
-call plug#begin('~/.local/share/nvim/plugged')
-Plug 'glacambre/firenvim', { 'do': { _ -> firenvim#install(0) } }
-Plug 'junegunn/goyo.vim'
-call plug#end()
+"call plug#begin('~/.local/share/nvim/plugged')
+"Plug 'glacambre/firenvim', { 'do': { _ -> firenvim#install(0) } }
+"Plug 'junegunn/goyo.vim'
+"call plug#end()
 
 "file type plug-in for file browsing
 filetype plugin on
