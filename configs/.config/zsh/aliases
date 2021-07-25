@@ -9,6 +9,9 @@ alias rm='rm -I'
 alias mkdir='mkdir -vp'
 alias d='dirs -v'
 for index ({1..9}) alias "$index"="cd +${index}"; unset index
+alias ip='doas pacman -S'
+alias sp='doas pacman -Ss'
+alias up='doas pacman -Rns'
 
 alias fullclean='git checkout master && make clean && rm -f config.h && git reset --hard origin/master'
 
@@ -45,15 +48,16 @@ lfcd () {
 
 alias lf='lfcd'
 
-ae () {
+me () {
     file=$(find -maxdepth 1 -not -name ".*" -amin -10 | fzf)
     if [ -s $file ]; then
-        echo "sup"
+        chmod u+x "$file"
     fi
-#| fzf | xargs chmod u+x
 }
 
 alias sk='fullclean && git checkout keychain && v config.def.h'
 alias sc='fullclean && git checkout config && v config.def.h'
 alias gc='git commit -a'
-alias sm='git commit -a && git checkout master && suckmerge'
+alias gg='git checkout'
+alias sm='git add . && git commit && git checkout master && fullclean && suckmerge'
+bc() { fullclean && git branch "$1" && git checkout "$1" }

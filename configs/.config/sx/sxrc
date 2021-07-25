@@ -1,1 +1,5 @@
+setbg 
+picom &
+dunst &
+slstatus &
 exec dwm

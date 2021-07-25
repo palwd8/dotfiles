@@ -1,7 +1,6 @@
 let mapleader=" "
 
 "call plug#begin('~/.local/share/nvim/plugged')
-"Plug 'glacambre/firenvim', { 'do': { _ -> firenvim#install(0) } }
 "Plug 'junegunn/goyo.vim'
 "call plug#end()
 
@@ -18,6 +17,8 @@ set hidden
 set incsearch
 set scrolloff=8
 set textwidth=83
+set sidescrolloff=999
+set scrolloff=999
 
 "programming rules
 syntax on
@@ -47,8 +48,11 @@ inoremap jj <Esc>
 nnoremap ZW :w<CR>
 map <F6> :setlocal spell!<CR>
 
-:ab #b /************************************************
-:ab #e ************************************************/
+iab #b /***********************************************************************************
+iab #e ***********************************************************************************/
+iab com /*<CR><CR>*/<Up>
+abbr forl for (int i = 0; i < ; ++i) {<esc>7hi
 
 "check file in shellcheck
-map <leader>s :!clear && shellcheck %<CR>
+map <leader>s :w <bar> :bel 10sp <bar> !clear && shellcheck %<CR>
+map <leader>r :w <bar> :bel 10sp <bar> :term gcc % && ./a.out<CR>i
