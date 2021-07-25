@@ -1,0 +1,6 @@
+#!/bin/sh
+
+while true; do
+    xsetroot -name "^c#91b362^ ^d^^b#91b362^^c#0a0e14^  $(cat /sys/class/power_supply/BAT0/capacity)% ^c#6994b4^^d^^b#6994b4^^c#0a0e14^ $(date +'%A (%d) %I:%M %p') "
+    sleep 60
+done

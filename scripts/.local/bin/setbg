@@ -1,0 +1,7 @@
+#!/bin/sh
+
+wallpaper_directory="$HOME/pictures/papes"
+random_wallpaper=$(find "$wallpaper_directory" -type f | shuf -n 1)
+xwallpaper --zoom "$random_wallpaper"
+
+echo "$random_wallpaper" > $(mktemp "$HOME/tmp/curwallXXX")

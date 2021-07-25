@@ -1,0 +1,11 @@
+#!/bin/sh
+
+for branch in $(git branch | cut -c 3-)
+do
+    if [ "$branch" != "master" ]; then
+        echo "$branch"
+        git merge $branch -m "$branch"
+    fi
+done
+make
+sudo make clean install
